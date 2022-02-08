@@ -12,7 +12,7 @@ function Contact() {
                     <p>Feel Free to Send Message or Feedback</p>
                     <SocialContact/>
          <div className="download">
-             <a download href={require('../../../image/Profile.pdf').default}>
+             <a download href={require("../../../image/Naveen's Resume.pdf").default}>
              <i class="fas fa-download download-icon"></i>Download Resume</a>
          </div>
                 </div>

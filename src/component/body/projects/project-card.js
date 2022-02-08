@@ -9,7 +9,7 @@ import './project-card.css'
                     {project.demo&& ( <a href={project.demo} className='rpject-link'>
                         <div className='link-button'>
                         <i class="fas fa-globe"></i> Demo</div></a>)}
-                        {project.github&&( <a href={project.github} className='rpject-link'>
+                        {project.github&&( <a href={project.github} className='rpject-link' target="_blank">
                         <div className='link-button'>
                         <i class="fab fa-github"></i>GitHub</div></a>)}
                 </div>
